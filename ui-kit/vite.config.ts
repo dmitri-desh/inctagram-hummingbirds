@@ -13,6 +13,7 @@ export default defineConfig({
       // the proper extensions will be added
       fileName: "index",
       formats: ["es", "cjs"],
+      name: "ui-kit",
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
